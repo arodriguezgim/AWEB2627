@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+    <hr>
+    <table style="width: 100%;">
+        <tr style="height: 50px;">
+            <th colspan="2">Nombre y Apellidos</th>
+            <!--<th>Apellidos</th>-->
+            <th>Teléfono</th>
+        </tr>
+        <tr>
+            <td>Alberto</td>
+            <td>Rodriguez</td>
+            <td rowspan="2">654321321</td>
+        </tr>
+        <tr>
+            <td>Alejandro</td>
+            <td>García Gimenez</td>
+            <!--<td>654321321</td>-->
+        </tr>
+        <tr>
+            <td>Mark</td>
+            <td>Anuako</td>
+            <td>654999999</td>
+        </tr>
+        <tr>
+            <td>Iñaki</td>
+            <td>Anuako</td>
+            <td>654999999</td>
+        </tr>
+    </table>
+</body>
+</html>
