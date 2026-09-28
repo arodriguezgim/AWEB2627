@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plataforma de Entregas</title>
+</head>
+
+<body>
+    <div style="background-color: #eef2f5;">
+        <h1>Portal de <mark>Entrega</mark> de Prácticas</h1>
+        <p><em>Recuerda adjuntar tu memoria técnica antesde la fecha límite.</em></p>
+        <form action="./formulario.html" method="post">
+            <p> <label for="codigo_alumno">Código de Estudiante:</label> <input type="text" id="codigo_alumno"
+                    name="codigo_alumno" placeholder="Ej: ALU-1042"> </p>
+            <p> <label for="memoria_pdf">Subir memoria técnica (PDF):</label> <input type="file" id="memoria_pdf"
+                    name="memoria_pdf">
+
+            </p>
+            <p> <label for="observaciones">Observaciones o comentarios adicionales:</label><br><br> <textarea
+                    id="observaciones" name="observaciones"
+                    placeholder="Escribe aquí las aclaraciones sobre tu entrega..." cols="45" rows="5"></textarea> </p>
+            <p> <input type="submit" value="Entregar Trabajo"> <input type="reset" value="Limpiar Formulario"> <button
+                    type="button" onclick="alert('Plazo máximo de entrega: Domingo a las 23:59h')">Ver Normas de
+                    Entrega</button> </p>
+        </form>
+    </div>
+</body>
+
+</html>

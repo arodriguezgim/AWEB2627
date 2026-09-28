@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios avanzados</title>
+</head>
+<body>
+    <h1>Formulario de registro de Usuario</h1>
+    <hr>
+    <form action="./formulario.html" method="post">
+        <fieldset>
+            <legend>Registro de Usuario</legend>
+            <p>
+                <label for="nombre_principal">Nombre:</label>
+                <input type="text" id="nombre_principal" name="nombre" placeholder="Nombre">
+            </p>
+            <p>
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+            </p>
+            <p>
+                <label for="contrasenia">Contraseña</label>
+                <input type="password" id="contrasenia" name="pass" placeholder="Password">
+            </p>
+            <p>
+                <label for="contrasenia2">Repite la contraseña:</label>
+                <input type="password" id="contrasenia2" name="pass2" placeholder="Password">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Género</legend>
+            <input type="radio" name="genero" value="Masculino" id="masc">
+            <label for="masc">Masculino</label><br>
+            <input type="radio" name="genero" value="Femenino" id="fem">
+            <label for="fem">Femenino</label><br>
+            <input type="radio" name="genero" value="Neutro" id="nc">
+            <label for="nc">No Contesta</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Módulo favorito:</legend>
+            <p>Elige tu módulo favorito:</p>
+            <input type="radio" name="modulofav" value="Redes Locales" id="rl">
+            <label for="rl">Redes Locales</label><br>
+            <input type="radio" name="modulofav" value="Aplicaciones Web" id="aw">
+            <label for="aw">Aplicaciones Web</label><br>
+            <input type="radio" name="modulofav" value="Servicios en Red" id="sr">
+            <label for="sr">Servicios en Red</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Profesores favoritos:</legend>
+            <input type="checkbox" name="profesoresfav" value="ES" id="es">
+            <label for="es">Ester</label>
+            <input type="checkbox" name="profesoresfav" value="PA" id="pa">
+            <label for="pa">Pascual</label>
+            <input type="checkbox" name="profesoresfav" value="JU" id="ju">
+            <label for="ju">Julio</label>
+            <input type="checkbox" name="profesoresfav" value="LI" id="li">
+            <label for="li">Lidia</label>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona tu curso:</legend>
+            <select name="curso">
+                <option value="">Selecciona tu curso...</option>
+                <optgroup label="Grado Medio">
+                    <option value="smr1">1º SMR</option>
+                    <option value="smr2">2º SMR</option>
+                </optgroup>
+
+                <optgroup label="Grado Superior">
+                    <option value="dam1">1º DAM</option>
+                    <option value="dam2">2º DAM</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+    </form>
+</body>
+</html>
