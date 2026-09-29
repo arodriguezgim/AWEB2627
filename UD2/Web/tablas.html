@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curso HTML de Alberto Rodriguez</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./listas.html">2- Listas en HTML</a></li>
+                <li><a href="./tablas.html">3- Tablas en HTML</a></li>
+                <li><a href="./botones.html">4- Botones en HTML</a></li>
+                <li><a href="./cajas.html">5- Elemento DIV</a></li>
+                <li><a href="./textos.html">6- Formato de textos em HTML</a></li>
+                <li><a href="./html5.html">7- Nuevas etiquetas en HTML5</a></li>
+                <li><a href="./formularios.html">8- Formularios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Tablas en HTML</h1>
+    <hr>
+    <table style="width: 100%;">
+        <tr style="height: 50px;">
+            <th colspan="2">Nombre y Apellidos</th>
+            <!--<th>Apellidos</th>-->
+            <th>Teléfono</th>
+        </tr>
+        <tr>
+            <td>Alberto</td>
+            <td>Rodriguez</td>
+            <td rowspan="2">654321321</td>
+        </tr>
+        <tr>
+            <td>Alejandro</td>
+            <td>García Gimenez</td>
+            <!--<td>654321321</td>-->
+        </tr>
+        <tr>
+            <td>Mark</td>
+            <td>Anuako</td>
+            <td>654999999</td>
+        </tr>
+        <tr>
+            <td>Iñaki</td>
+            <td>Anuako</td>
+            <td>654999999</td>
+        </tr>
+    </table>
+</body>
+</html>
