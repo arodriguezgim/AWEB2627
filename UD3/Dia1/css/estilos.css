@@ -1,0 +1,18 @@
+/* ESTO ES UN ARCHIVO CSS */
+body {
+    background-color: rgb(244, 220, 224);
+}
+
+h1 {
+    color: rgb(69, 91, 91);
+}
+
+/*h2 {
+    background-color: bisque;
+}*/
+/* IDENTIFICADORES: Para atacar a un identificador, lo
+escribiremos con # delante de su nombre */
+
+#mclaren, #aston, h1 {
+    background-color: orange;
+}
