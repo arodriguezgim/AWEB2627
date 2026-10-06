@@ -16,3 +16,18 @@ escribiremos con # delante de su nombre */
 #mclaren, #aston, h1 {
     background-color: orange;
 }
+/* CLASES: Sirven para atacar a los elementos que queramos de 
+nuestro HTML
+Las clases de HTML comienzan con . y el nombre que queramos
+*/
+.texto-rojo { 
+    color: red;  
+}
+
+.italico {
+    font-style: italic;
+}
+
+.subrayado {
+    text-decoration: underline;
+}

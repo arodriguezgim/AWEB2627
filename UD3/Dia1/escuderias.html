@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 1 en CSS</title>
+    <style>
+        /*Color de fondo*/
+        body {
+            background-color: lightgoldenrodyellow
+        }
+        .textogrande {
+            font-size: 1.2em;
+        }
+        .textopequeno {
+            font-size: 0.8em;
+        }
+        .alberto {
+            font-weight: bold;
+            font-style: italic;
+            color: red;
+        }
+        div {
+            border: 5px solid red;
+            border-radius: 30px;
+            /* border aglutina estas tres propiedades:*/
+            /*border-color: blue;
+            border-width: 5px;
+            border-style: dashed;*/
+        }
+        /* Esto SÓLO ataca a los elementos h2 contenidos en un elemento div*/
+        #cajaprincipal h2 {
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escuderías</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Escuderías</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <h2>Escuderias de la Temporada 26 27</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, facere. Cupiditate asperiores neque impedit est odio magnam quae saepe voluptatibus non, quam, aut id sit deleniti in rerum, iusto distinctio.</p>
+        <p class="textogrande">Este es el segundo párrafo en la web de escuderías.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic quaerat error at excepturi mollitia itaque, voluptatem unde aperiam quisquam veniam laudantium suscipit quia sequi. Earum modi nostrum fugit nam.</p>
+        <h3>Soy un título H3</h3>
+        <div id="cajaprincipal">
+            <p>Esto es un párrafo contenido en un div</p>
+            <h2>Esto es un titulo H2 contenido en un div</h2>
+            <h3>Soy un titulo h3</h3>
+            <p>Esto es otro parrafo dentro del div</p>
+            <p>Este es mi último parrafo</p>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p>Web diseñada por <span class="alberto">ALBERTO R.</span></p>
+    </footer>
+</body>
+</html>
