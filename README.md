@@ -10,7 +10,7 @@
 - [UD2 - El lenguaje HTML - 19h](./UD2/readme.md)
     - [Ejercicios de Formularios en HTML (Para la clase del Viernes 2 de Octubre) ](./UD2/ejerciciosformularios.md)
 - [UD3 - Hojas de Estilos. CSS. - 17h](./UD3/readme.md)
-    - Ejercicios CSS
+    - [Ejercicios CSS](./UD3/ejercicios1css/readme.md)
     - Ejercicios CSS parte 2
     - Ejercicios CSS parte 3
     - Ejercicios CSS parte 4
