@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Cajas</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .caja {
+            
+            width: 160px;
+            height: 100px;
+            /* Padding: Relleno*/
+            /*padding: 10px 20px 30px 40px; top right bottom left*/
+            /*padding-top: 40px;
+            padding-left: 20px;
+            padding-right: 30px;*/
+
+            border: 2px solid black;
+            overflow: auto;
+        }
+        .caja1 {
+            background-color: lightseagreen;
+            margin: 10px 20px 30px 40px;
+            margin: 5px auto 30px auto;
+        }
+        .caja2{
+            background-color: lightgoldenrodyellow;
+            margin: auto;
+            /* Overflow*/
+            /*overflow: visible; Defecto*/
+            /*overflow: hidden; Esconde el contenido que se desborda*/
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="caja caja1">
+        <p>Hola SMR2</p>
+    </div>
+    <div class="caja caja2">
+        <p>Estamos en la clase de Aplicaciones Web Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam obcaecati praesentium debitis mollitia quasi, minima eius placeat facere similique? Fugiat error vero maiores officiis voluptatibus!</p>
+    </div>
+</body>
+</html>
