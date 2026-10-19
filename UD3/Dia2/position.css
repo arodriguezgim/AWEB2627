@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    margin: 30vh auto;
+    border: 5px solid black;
+    width: 300px;
+    
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+/* Propiedad position: Sirve para tener nosotros el control 
+de situar a los elementos de HTML donde queramos
+
+- static
+- relative
+- absolute
+- fixed
+- sticky
+- z-index
+
+*/
+
+.caja-1{
+    background-color: #FF6961;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    /*top: 100px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+    z-index: -1;*/
+}
+.caja-2{
+    background-color: aquamarine;
+    color: black;
+    position: relative;
+    
+}
+.caja-3{
+    background-color: #e79eff;
+    
+}
+.caja-4{
+    background-color: #84b6f4;
+}
+.caja-5{
+    background-color: orange;
+}
+.caja-6{
+    background-color: green;
+}
