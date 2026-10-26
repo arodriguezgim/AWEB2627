@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases CSS</title>
+    <style>
+        a {
+            padding: 5px;
+            background-color: lightgoldenrodyellow;
+        }
+        
+        a:hover {
+            background-color: lightcoral;
+            color: white;
+            text-decoration: none;
+        }
+        li:first-child {
+            color: blue;
+            background-color: aqua;
+        }
+
+        li:last-child {
+            background-color: pink;
+            color: brown;
+            font-weight: bold;
+        }
+        li:nth-child(odd) { /*Impares*/
+            color: green;
+        }
+        li:nth-child(even) { /*Pares*/
+            color: blueviolet;
+        }
+        
+        li:hover {
+            background-color: orange;
+            color: white;
+        }
+        table{
+            width: 90%;
+        }
+        table, th, td {
+           
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child( 1 ) {
+            background-color: beige;
+        }
+        tr{
+            /*Aplicamos transicion al elemento base*/
+            transition: background-color 0.4s ease-in-out, transform 1s ease-in-out;
+        }
+
+        tr:hover {
+            background-color: aquamarine;
+            font-weight: bold;
+            cursor: pointer; /* Cambio el cursor ala manita*/
+            transform: scale(1.02);
+        }
+
+        .no-copiar {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <p>Mueve el ratón sobre este enlace: <a href="#">Google.es</a></p>
+    <hr>
+    <div>
+        <h2>Compra Halloween</h2>
+        <ul class="no-copiar">
+            <li>Calabaza</li>
+            <li>Ginebra Sin Alcohol</li>
+            <li>Chuletón 2Kg</li>
+            <li>Jägermeinster Sin alcohol</li>
+            <li>Disfraz</li>
+        </ul>
+        <hr>
+        <h2>Compra Todos los santos</h2>
+        <ul>
+            <li>Flores</li>
+            <li>Reserva restaurante</li>
+            <li>Aspirinas</li>
+            <li>Ibuprofeno</li>
+        </ul>
+    </div>
+    <hr>
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Equipo local</th>
+            <th>Equipo local</th>
+        </tr>
+        <tr>
+            <td>18:00</td>
+            <td>Real Madrid</td>
+            <td>Barcelona</td>
+        </tr>
+        <tr>
+            <td>20:00</td>
+            <td>CD Teruel</td>
+            <td>Sant Andreu</td>
+        </tr>
+        <tr>
+            <td>21:00</td>
+            <td>At Madrid</td>
+            <td>Getafe</td>
+        </tr>
+        <tr>
+            <td>22:00</td>
+            <td>At Escalerillas</td>
+            <td>Monreal CF</td>
+        </tr>
+    </table>
+</body>
+</html>
