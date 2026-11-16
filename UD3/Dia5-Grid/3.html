@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+
+        div {
+            display: grid;
+            grid-template-columns: minmax(200px, 1fr) 6fr;
+        }
+
+
+
+        aside {
+            border: 1px solid red;
+        }
+
+        main {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <aside>Barra lateral</aside>
+        <main>Contenido principal de la pagina</main>
+    </div>
+</body>
+</html>

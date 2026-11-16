@@ -1,0 +1,22 @@
+.container {
+    background-color: lightsalmon;
+    border: 3px solid black;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;/* 1fr 1fr 1fr 1fr*/
+    /*grid-template-rows: 100px 50px 30px 100px 500px;*/
+    grid-auto-rows: 150px;
+    column-gap: 30px;
+    row-gap: 10px;
+    
+
+
+}
+
+.container div {
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 6px;
+   ;
+}
