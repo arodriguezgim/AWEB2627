@@ -7,8 +7,9 @@
     grid-template-columns: repeat(4, 1fr) ;/* 1fr 1fr 1fr 1fr*/
     /*grid-template-rows: 100px 50px 30px 100px 500px;*/
     grid-auto-rows: 150px;
-    column-gap: 30px;
-    row-gap: 10px;
+    /*column-gap: 30px;
+    row-gap: 10px;*/
+    gap: 10px;
     
 
 
@@ -18,5 +19,26 @@
     background-color: lightblue;
     border: 2px solid black;
     border-radius: 6px;
-   ;
+}
+
+.container div:first-child{
+    background-color: lightgreen;
+    border: 2px solid green;
+    /*grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;*/
+    /*
+    grid-row-start: span 2;
+    grid-column-start: span 3;*/
+
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+.container div:nth-child(2){
+    background-color: blueviolet;
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+    
 }
